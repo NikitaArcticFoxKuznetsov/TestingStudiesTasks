@@ -1,0 +1,3 @@
+SELECT model, ram, screen
+FROM Laptop
+Where price > 1000
