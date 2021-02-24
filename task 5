@@ -1,0 +1,9 @@
+SELECT model, speed, hd
+FROM PC
+WHERE cd = '12x' and price < 600 or cd = '24x' and price < 600
+
+ИЛИ
+
+SELECT model, speed, hd
+FROM PC
+WHERE cd IN ('12x', '24x') and price < 600
